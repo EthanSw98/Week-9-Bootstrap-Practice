@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+   <style>
+    #albumrow{
+        border-style:solid;
+        border-color:black;
+        color:black;
+    }
+   </style>
+</head>
+
+
+
+<body class ="bg-dark" class ="container-fluid">
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="Week-9-Assignment.html">Rekarts Records</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="Week9Records.html">Our Catalogue</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Week9Records.html">Local Concerts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Week9Records.html">About Us</a>
+              </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Browse Genres
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Metal</a>
+                <a class="dropdown-item" href="#">80's Alternative</a>
+              </div>
+            </li>
+           </ul>
+        </div>
+    </nav>
+
+
+    <div class="bg-secondary bg-gradient" class="bg-gradient" class="jumbotron jumbotron-fluid ">
+        <div class="text-center">
+            <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz6ADNXsqOULJenOtSoqgO0p8p8b1pbQhR4EEVKkDQ&s" alt="Record" >
+            <h1><u>Rekarts'<br> Records</u></h1>
+            <h5>Rekart has got all the Rockin Records you need.<b><u>Ooh yeah baby!</u></b><br>
+                Classics and oldies for you collectors,
+                 and new releases weekly.
+            </h3>
+        </div>
+    </div>
+
+    <div class="container bg-secondary">
+        <form>
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Search Catalogue">
+              </div>
+              <div class="col">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+        </form>
+    </div>
+    <div class="container bg-secondary">
+        <h3>Featured Albums</h3>
+    </div>
+
+    <div class="container">
+        <div class="row" id="albumrow">
+            <div class="col" id="albumrow">
+                <img src="https://upload.wikimedia.org/wikipedia/en/5/5a/UnknownPleasuresVinyl.jpg" class="img-fluid" alt="record">
+            </div>
+            <div class="col" id="albumrow">
+                <img src="https://cdn.shopify.com/s/files/1/1810/8909/products/image_273cdedc-d520-4f6f-a9f1-946389b99e6d_800x.heic?v=1657654044" class="img-fluid" alt="record">
+            </div>
+            <div class="col" id="albumrow">
+                <img src="https://upload.wikimedia.org/wikipedia/en/2/2c/Minor_Threat_-_Out_of_Step.jpg" class="img-fluid" alt ="record">
+            </div>
+        </div>
+        <div class="bg-secondary" class="container" id="albumrow">
+            <div class="row">
+                <div class="col" id="albumrow">
+                    <p>Joy Division- Unknown Pleasures</p>
+                </div>
+                <div class="col" id="albumrow">
+                    <p>Billy Idol- Rebell Yell</p>
+                </div>
+                <div class="col" id="albumrow">
+                    <p>Minor Threat- Out Of Step</p>
+                </div>
+            </div>
+        </div>
+     </div>
+    
+
+    
+
+    <div class="bg-secondary" class="container-fluid">
+
+        <h3>Whats Hot</h3>
+
+        <table class="table table-dark table-hover">
+            <tr>
+                <th>Album Title</th>
+                <th>Band Name</th>
+                <th>Release Date</th>
+            </tr>
+            <tr>
+                <th>Rebell Yell</th>
+                <th>Sam</th>
+                <th>1983</th>
+            </tr>
+            <tr>
+                <th>Sea Change</th>
+                <th>Beck</th>
+                <th>2002</th>
+            </tr>
+            <tr>
+                <th>Get Your Wings </th>
+                <th>AeroSmith</th>
+                <th>1974</th>
+            </tr>
+            <tr>
+                <th>The Legacy </th>
+                <th>Testament</th>
+                <th>1987</th>
+            </tr>
+            <tr>
+                <th>Bad Hair Day</th>
+                <th>Weird Al Yankovic</th>
+                <th>1996</th>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
